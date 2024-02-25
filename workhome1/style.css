@@ -1,0 +1,23 @@
+.nav{
+  height: 60px;
+  background-color: rgb(245, 141, 80);
+  font-size: 20px;
+}
+.text{
+  font-size: 20px;
+}
+.list{
+  font-size: 20px;
+}
+.foot{
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+}
+.links{
+  color: white;
+}
+.quote{
+  background-color: rgb(219, 134, 134);
+  font-size: 20px;
+}
