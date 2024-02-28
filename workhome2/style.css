@@ -1,0 +1,21 @@
+.container {
+  background-color: #96a6ca;
+  height: 800px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: auto;
+  border: 2px solid black;
+  margin-left: 5px;
+}
+
+.container_card {
+  display: inline-block;
+  background-color: #aa7c7c;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 50px;
+  font-size: 24px;
+  box-shadow: 8px 1px 20px 2px black;
+}
