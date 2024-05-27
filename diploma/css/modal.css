@@ -52,26 +52,18 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 402px;
   width: 100%;
   gap: 24px;
-  margin-left: 30px;
-  margin-bottom: 24px;
+  padding: 0 30px;
 
 }
 .modal__input{
   width: 100%;
-  
-}
-.modal__input:last-child{
-
-  
 }
 
-.modal__input-name {
-}
 
 .modal__input-tel {
+  margin-bottom: 42px;
 }
 
 .modal__input-name,
