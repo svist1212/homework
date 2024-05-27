@@ -47,18 +47,31 @@
   text-align: left;
   margin: 30px 0 26px 30px;
 }
-
-.modal__input{
-  display: block;
+.modal__form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   max-width: 402px;
+  width: 100%;
+  gap: 24px;
+  margin-left: 30px;
+  margin-bottom: 24px;
+
+}
+.modal__input{
+  width: 100%;
+  
+}
+.modal__input:last-child{
+
+  
 }
 
 .modal__input-name {
-  margin: 0px 30px 24px;
 }
 
 .modal__input-tel {
-  margin: 0 30px 42px;
 }
 
 .modal__input-name,
