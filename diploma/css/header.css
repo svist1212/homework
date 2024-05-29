@@ -1,0 +1,163 @@
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 32px 33px; */
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 450px;
+  margin-bottom: 33px;
+  gap: 25px;
+}
+
+.header__logo p {
+  display: flex;
+  color: var(--accent-text-bl);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 13px; */
+}
+
+
+.header__logo-img {
+  max-width: 269px;
+  height: 98px;
+  /* position: relative; */
+  /* margin-right: 45px; */
+}
+
+.header__logo-img img {
+  display: block;
+  width: 100%;
+  /* max-width: 269px;
+  height: 98px; */
+  /* width: 100%; */
+}
+
+.header__logo span {
+  /* position: absolute; */
+  /* top: 59%; */
+  /* right: -20%; */
+  display: flex;
+  width: 1px;
+  height: 33px;
+  background: #ffffff;
+  /* rotate: 90deg; */
+}
+
+.header__top-tel {
+  display: flex;
+  flex-direction: column;
+  color: var(--accent-text-bl);
+  font-weight: 700;
+  /* margin-top: 24px; */
+}
+
+.header__top-tel a {
+  transition: var(--transition);
+}
+
+.header__top-tel:hover a {
+  color: var(--accent-text-bl);
+}
+
+.header__tel {
+  color: var(--general-text);
+  font-family: "Russo One";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.header__inner {
+  display: flex;
+}
+
+.header__about {
+  display: flex;
+  flex-direction: column;
+  max-width: 543px;
+  color: var(--general-text);
+  margin: 0 32px;
+
+
+  position: relative;
+}
+
+.header__about-weather {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 12px;
+}
+
+.header__about-weathe-svg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+
+.header__about-weathe-svg svg {
+  width: 25px;
+  height: 25px;
+  opacity: .4;
+}
+
+.header__about-weathe-text {
+  white-space: nowrap;
+  text-align: left;
+}
+
+.header__about-title {
+  max-width: 454px;
+  margin-bottom: 14px;
+}
+
+
+
+.header__about-text {
+  color: var(--general-text);
+  font-family: "Russo One";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  max-width: 299px;
+  margin-bottom: 40px;
+}
+
+.header__about-arrow {
+  position: absolute;
+  top: 41%;
+  right: 26%;
+}
+
+
+.button:hover {
+  box-shadow: 0px 1px 19px 6px var(--accent-text-bl);
+}
+
+.header__about-btn-text {
+  margin-left: 20px;
+  font-weight: 600;
+  margin-bottom: 72px;
+}
+
+.header__img {
+  width: 1037px;
+  height: 477px;
+  display: flex;
+  margin-right: -419px;
+}
+
+.header__img img {
+  width: 100%;
+  height: auto;
+}

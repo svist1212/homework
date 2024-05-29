@@ -1,0 +1,16 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip6_229">
+			<rect id="moon 1" width="20.000000" height="20.007141" transform="translate(0.000000 -0.945724)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g opacity="0.400000">
+		<rect id="moon 1" width="20.000000" height="20.007141" transform="translate(0.000000 -0.945724)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip6_229)">
+			<path id="Vector" d="M19.51 10.44C19.3 10.39 19.1 10.44 18.92 10.57C18.26 11.13 17.49 11.6 16.64 11.9C15.85 12.21 14.98 12.36 14.06 12.36C11.99 12.36 10.1 11.52 8.74 10.16C7.39 8.81 6.54 6.91 6.54 4.84C6.54 3.97 6.7 3.13 6.95 2.36C7.23 1.54 7.64 0.8 8.18 0.16C8.41 -0.12 8.36 -0.53 8.08 -0.76C7.9 -0.89 7.69 -0.94 7.49 -0.89C5.31 -0.3 3.42 1 2.07 2.74C0.76 4.46 0 6.58 0 8.88C0 11.67 1.12 14.2 2.96 16.05C4.8 17.89 7.31 19.01 10.12 19.01C12.48 19.01 14.65 18.2 16.39 16.84C18.15 15.46 19.43 13.49 19.97 11.24C20.07 10.88 19.87 10.52 19.51 10.44Z" fill="#F1F1F1" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
