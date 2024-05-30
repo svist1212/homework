@@ -625,8 +625,12 @@
     text-align: center;
   }
 
-  ..map__address-office {
-    margin: 15px;
+  .map__address-office {
+    margin: 0;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -844,6 +848,8 @@
     align-items: center;
     justify-content: center;
   }
+
+
 
   /* ------------------------------------------------------------- */
   .modal__two-top {
