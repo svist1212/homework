@@ -91,7 +91,7 @@ modalButton.forEach(function (element) {
 function openModal(e) {
   e.preventDefault()
   document.body.classList.toggle('body--modal-opened')
-}
+};
 
 function closeModal(e) {
   e.preventDefault()
@@ -99,16 +99,33 @@ function closeModal(e) {
 
 
 
-  if (target.closest('.modal__closed') || target.closest('.modal') || target.closest('.modal__button')) {
+  if (target.closest('.modal__closed') || target.closest('modal') || target.closest('.modal__button')) {
     document.body.classList.remove('body--modal-opened')
   };
 };
 
-document.addEventListener('keydown', function(e) {
+
+const mod = document.querySelector('.modal__window')
+
+document.querySelector('.modal').addEventListener('click', (elem) => {
+  elem.preventDefault()
+
+    const click = elem.composedPath().includes(mod)
+    if (!click) {
+      document.body.classList.remove('body--modal-opened')
+    }
+  
+});
+
+
+document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape') {
     document.body.classList.remove('body--modal-opened')
   }
-  });
+});
+
+
+
 
 //Модалка 2
 const modalTwo = document.querySelector('.modal__two')
